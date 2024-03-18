@@ -18,6 +18,7 @@ Integrar todo a una interfaz grafica.
 **Estado del proyecto:** 🔴 🔒 No empezado. 
 
 **Nivel del codigo**
+
 Estructurado y comentado. 🟢 
 Estructurado, comentado y con funciones. 🟢
 Estructurado con POO. 🟢
