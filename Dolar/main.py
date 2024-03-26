@@ -22,7 +22,7 @@ class Scrap(Request):
     Clase hija de Request que permite realizar el scraping de una URL.
     """
   
-    def __init__(self,):
+    def __init__(self,url):
         """
         Metodo constructor que inicializa la clase y
         declara variables de instancia.
