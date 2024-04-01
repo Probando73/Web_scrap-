@@ -1,4 +1,4 @@
-#import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -89,6 +89,16 @@ class Graphics():
 
         boxplot = self.ax.boxplot(data_x)
         return boxplot
+
+    def varios_graficos(self, mep, ccl, blue, cripto):
+        """
+            Metodo para crear varios graficos.
+            """
+        fig, self.ax = plt.subplots(2, 2)
+        mep()
+        ccl()
+        blue()
+        cripto()
 
     def imshow(self,):
         # Investigar
